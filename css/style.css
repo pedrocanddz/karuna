@@ -1,0 +1,64 @@
+/* Header inicio */
+.header{
+    display: flex;
+    background-color: pink;
+    color: black;
+    padding: 5px 5px;
+    justify-content: space-around;
+    align-items: center;
+}
+.header .logo{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin: 5px;
+}
+.nav_bar{
+    list-style-type: none;
+}
+.nav_bar .nav_item{
+    display: inline-block;
+    padding: 20px 10px;
+}
+.nav_bar  a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav_bar .nav_item a:hover{
+    color: black;    
+}
+
+/* Header fim */
+
+/* Sobre inicio */
+.texto_slides{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.novo_karuna div{
+    /* width: 20%; */
+    padding-top: 2rem;
+    text-align: center;
+
+}
+.slides img{
+    width: 520px;
+    height: 300px;
+}
+
+.beneficios{
+    display: flex;
+    align-items: center;
+    padding: 30px 30px;
+    flex-wrap: wrap;
+}
+.beneficios img{
+    width: 50px;
+    height: 50px;
+}
+.beneficios p{
+    padding: 20px;
+}
+/* Sobre fim */
