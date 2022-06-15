@@ -35,14 +35,25 @@
 .texto_slides{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    height: 100%;
+    padding: 0rem 5rem;
+    background-color: blue;
 }
-.novo_karuna div{
-    /* width: 20%; */
-    padding-top: 2rem;
-    text-align: center;
 
+.novo_karuna {
+    text-align: center;
 }
+
+.novo_karuna h2{
+    margin-bottom: 5rem;
+    /* text-align: center; */
+}
+
+.slides{
+    margin-top: 19rem;
+}
+
 .slides img{
     width: 520px;
     height: 300px;
@@ -54,6 +65,7 @@
     padding: 30px 30px;
     flex-wrap: wrap;
 }
+
 .beneficios img{
     width: 50px;
     height: 50px;
