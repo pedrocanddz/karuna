@@ -38,22 +38,28 @@
     justify-content: center;
     height: 100%;
     padding: 0rem 5rem;
-    background-color: blue;
+    background-color: pink;
 }
 
 .novo_karuna {
     text-align: center;
+    padding: 0 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 3rem 0;
 }
 
 .novo_karuna h2{
-    margin-bottom: 5rem;
-    /* text-align: center; */
+    margin-bottom: 3rem;
+}
+
+.novo_karuna p{
+    margin-bottom: 3rem;
 }
 
 .slides{
-    margin-top: 19rem;
+    margin-top: 6rem;
 }
-
 .slides img{
     width: 520px;
     height: 300px;
