@@ -58,19 +58,23 @@
 }
 
 .slides{
-    margin-top: 6rem;
+    flex-grow: 3;
 }
 .slides img{
-    width: 520px;
     height: 300px;
 }
 
-.beneficios{
+.list_beneficios{
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-around;
+}
+/* .beneficios{
     display: flex;
     align-items: center;
     padding: 30px 30px;
     flex-wrap: wrap;
-}
+} */
 
 .beneficios img{
     width: 50px;
