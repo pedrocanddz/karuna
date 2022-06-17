@@ -33,13 +33,7 @@
 
 /* Sobre inicio */
 .img-slide{
-    align-items: center;
-}
-.slide_show{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+    display: none;
 }
 .texto_slides{
     display: flex;
@@ -65,43 +59,39 @@
 .novo_karuna p{
     margin-bottom: 3rem;
 }
-
 .slides{
+    background-color: #F2E4E4;
+    padding: 2rem;
+}
+.slides_container{
     position: relative;
-    background-color: #D9A036;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    max-width: 775px;
+    margin: auto;
 }
-.slides button{
-    padding: 1rem;
-    
-}
-.botao{
+.button-left, .button-rigth{
     position: absolute;
-}
-.slides img{
+    cursor: pointer;
+    top: 50%;
     width: auto;
-    max-height: 300px;
+    margin-top: -22px;
+    padding: 16px;
+    color: #091E26;
+    background-color: #F8A9C4;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
 }
+.button-rigth{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
 
-.list_beneficios{
-    text-decoration: none;
-    list-style: none;
-    justify-content: space-around;
-}
-/* .beneficios{
-    display: flex;
-    align-items: center;
-    padding: 30px 30px;
-    flex-wrap: wrap;
-} */
 
-.beneficios img{
-    width: 50px;
-    height: 50px;
-}
-.beneficios p{
-    padding: 20px;
-}
+
+
 /* Sobre fim */
