@@ -1,7 +1,7 @@
 /* Header inicio */
 .header{
     display: flex;
-    background-color: pink;
+    background-color: #F8A9C4;
     color: black;
     padding: 5px 5px;
     justify-content: space-around;
@@ -32,13 +32,22 @@
 /* Header fim */
 
 /* Sobre inicio */
+.img-slide{
+    align-items: center;
+}
+.slide_show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
 .texto_slides{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
     padding: 0rem 5rem;
-    background-color: pink;
+    background-color: #F8A9C4;
 }
 
 .novo_karuna {
