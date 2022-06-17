@@ -67,10 +67,22 @@
 }
 
 .slides{
-    flex-grow: 3;
+    position: relative;
+    background-color: #D9A036;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slides button{
+    padding: 1rem;
+    
+}
+.botao{
+    position: absolute;
 }
 .slides img{
-    height: 300px;
+    width: auto;
+    max-height: 300px;
 }
 
 .list_beneficios{
