@@ -63,6 +63,10 @@
     background-color: #F2E4E4;
     padding: 2rem;
 }
+.slides p{
+    padding: 1rem;
+    text-align: center;
+}
 .slides_container{
     position: relative;
     max-width: 775px;
@@ -90,8 +94,16 @@
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
   }
-
-
-
-
 /* Sobre fim */
+
+/* Salas início */
+.salas{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.sala img {
+    width: auto;
+    height: 300px;
+}
+/* Salas fim */
