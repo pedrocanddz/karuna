@@ -1,3 +1,7 @@
+* {
+    font-family: "Georgia";
+}
+
 /* Header inicio */
 .header{
     display: flex;
@@ -32,40 +36,22 @@
 /* Header fim */
 
 /* Sobre inicio */
+
+/* Slides inicio */
 .img-slide{
     display: none;
 }
-.texto_slides{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    padding: 0rem 5rem;
-    background-color: #F8A9C4;
-}
-
-.novo_karuna {
-    text-align: center;
-    padding: 0 1rem;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    margin: 3rem 0;
-}
-
-.novo_karuna h2{
-    margin-bottom: 3rem;
-}
-
-.novo_karuna p{
-    margin-bottom: 3rem;
+.img-slide img{
+    border-radius: 1em;
 }
 .slides{
     background-color: #F2E4E4;
     padding: 2rem;
+    
 }
-.slides p{
-    padding: 1rem;
+.slides h2 , .slides p{
     text-align: center;
+    padding: 1rem;
 }
 .slides_container{
     position: relative;
@@ -94,16 +80,55 @@
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
   }
+/* Slides fim */
+.texto_slides {
+    text-align: center;
+    padding: 1rem 6rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    background-color: #F8A9C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto{
+    padding-right: 1em;
+}
+.novo_karuna{
+    max-width: 1024px;
+    padding: 2rem;
+
+}
+.texto_slides img{
+    max-height: 450px ;
+    border-radius: 1em;
+}
+.novo_karuna h2{
+    margin-bottom: 3rem;
+}
+
+.novo_karuna p{
+    margin-bottom: 3rem;
+}
+
 /* Sobre fim */
 
-/* Salas início */
+/* Salas inicio */
 .salas{
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-items: center;
 }
-.sala img {
-    width: auto;
-    height: 300px;
+.sala{
+    border-radius: 1em;
+    background-color: #F8A9C4;
+    padding: 3rem;
+    text-align: center;
+    margin: 2rem;
+    min-height: 30%;
+}
+.sala img{
+    border-radius: 1em;
+    max-width: 40%;
 }
 /* Salas fim */
