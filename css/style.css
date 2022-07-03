@@ -211,6 +211,11 @@ textarea{
 /* Formulario fim */
 
 /* Footer inicio */
-
-
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F8A9C4;
+    padding: 1rem;
+}
 /* Footer fim */
