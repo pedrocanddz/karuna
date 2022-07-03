@@ -161,16 +161,19 @@
     min-height: 5rem;
 }
 /* Aulas Semanais fim */
+
 /* Formulario inicio */
 
 .formulario{
     display: flex;
-    flex-direction: column;
+    
     align-items: center;
     justify-content: center;
     padding: 2em;
 }
-
+.formulario div{
+    margin: 1em;
+}
 form div{
     text-align: center;
     margin-top: 0.5em;
@@ -183,7 +186,7 @@ form{
 }
 form input, textarea{
     box-sizing: border-box;
-    width: 300px;
+    width: 450px;
     border-radius: 1rem;
     border: 1px solid #999;
     padding: 0.5em;
@@ -196,7 +199,18 @@ textarea{
 }
 #botao_enviar{
     width: 100px;
-    margin-right: -15em;
+    margin-right: -26em;
 }
-
+.localizacao{
+    text-align: center;
+    padding: 4rem;
+}
+.localizacao h2{
+    margin-bottom: 2rem;
+}
 /* Formulario fim */
+
+/* Footer inicio */
+
+
+/* Footer fim */
