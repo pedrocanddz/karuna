@@ -19,7 +19,7 @@
                 <a href="#salas">Salas</a>
             </li>
             <li class="nav_item">
-                <a href="#sobre">Contato</a>
+                <a href="#contato">Contato</a>
             </li>
         </ul>
     </div>
@@ -41,9 +41,9 @@
             <a class="button-left" onclick="plusDivs(-1)">&#10094;</a>
             <a class="button-rigth" onclick="plusDivs(+1)">&#10095;</a>
         </div>
-        <p>O PRIMEIRO COWORKING PARA PROFESSORES DA ÁREA DA SAÚDE E BEM ESTAR DE SOROCABA.</p>
+        <p>O primeiro Coworking para professores da área da saúde e bem estar de Sorocaba.</p>
     </section>
-    <section class="texto_slides">
+    <section class="texto_slides" id="sobre">
         <div class="novo_karuna">
             <div>
                 <h2>Novo Karuna</h2>
@@ -72,7 +72,7 @@
             <img src="/img/aulas_semanais1.webp" alt="">
         </div>
     </section>
-    <section class="salas">
+    <section class="salas" id="salas">
         <div class="sala">
             <h2><strong>Sala 1 - Yoga Taichi</strong></h2>
             <img src="/img/sala_1.png" alt="">
@@ -87,39 +87,72 @@
         </div>
     </section>
     
-    <!-- <section class="exposicao_beneficios">
-          
-    </section>
+    <section class="horarios-semanais">
+        <div>
+            <div>
+                <h2>Aulas Semanais</h2>
+            </div>
+        </div>
+        <div class="tabela-horarios">
+            <div class="horarios">
+                <div>
+                   <strong> Intrutora Giovanna </strong>
+                </div>
+                <div>
+                    <p>Segunda e Quarta 16H00</p>
+                    <p>Terça 10H30</p>
+                    <p>Sexta 9H30</p>
+                </div>
+            </div>
+            <div class="horarios">
+                <div>
+                    <strong> Intrututora Paloma </strong>
+                 </div>
+                <div>
+                    <p>Terça e Quinta 18H00</p>
 
-    <section class="sala_1">
-        <div>
-            <h2><strong>Sala 1 - Yoga Taichi</strong></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque deserunt commodi mollitia maxime fuga. Ipsam rem iste doloremque consequatur enim dignissimos dolorum, voluptatum accusamus incidunt explicabo at reprehenderit cupiditate quo.</p>
-            <div>Saiba mais</div>
-        </div>        
-        <img src="/img/sala_1.png" alt="">
+                </div>
+            </div>
+            <div class="horarios">
+                <div>
+                    <strong> Instrutora Sol </strong>
+                 </div>
+                <div>
+                    <p>Quinta 9H00</p>
+                    <p>Sábado 9H00</p>
+                </div>
+            </div>
+       </div>
     </section>
-    <section class="sala_2">
+    <section class="formulario" id="contato">
         <div>
-            <h2><strong>Sala 2 - Pilates Solo, Aero Pilates e Funcional</strong></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque deserunt commodi mollitia maxime fuga. Ipsam rem iste doloremque consequatur enim dignissimos dolorum, voluptatum accusamus incidunt explicabo at reprehenderit cupiditate quo.</p>
-            <div>Saiba mais</div>
+            <h2>Contato</h2>
+        </div>
+        <div class="formulario_container">
+            <form action="">
+                <div class="form_item">
+                    <!-- <label for="nome">Nome</label> -->
+                    <input type="text" name="nome" id="nome" placeholder="Nome">
+                </div>
+                <div class="form_item">
+                    <!-- <label for="email">Email</label> -->
+                    <input type="email" name="email" id="email" placeholder="Email">
+                </div>
+                <div class="form_item">
+                    <!-- <label for="telefone">Telefone</label> -->
+                    <input type="text" name="telefone" id="telefone" placeholder="Telefone">
+                </div>
+                <div class="form_item">
+                    <!-- <label for="mensagem">Mensagem</label> -->
+                    <textarea name="mensagem" id="mensagem"  cols="30" rows="10" placeholder="Mensagem"></textarea>
+                </div>
+                <div class="form_item">
+                    <input type="submit" id="botao_enviar" value="Enviar">
+                </div>
+            </form>
         </div>
     </section>
-    <section class="horarios">
-        <div>
-            <h2><strong>Aulas Semanais</strong></h2>
-            <p>INSTRUTORA GIOVANNA</p>
-            <P>SEGUNDA E QUARTA 16H00</p>
-            <p>TERÇA 10H30</p>
-            <p>SEXTA 9H30</p>
-        </div>
-        <img src="/img/aulas_semanais1.webp" alt="">
-        <img src="/img/aulas_semanais2.png" alt="">
-
-    </section>
-
-    <footer>            
+    <!-- <footer>            
         <div class="row">
             <div class="col-md-12">
                 <h2>Contact</h2>

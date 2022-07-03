@@ -120,15 +120,83 @@
     align-items: center;
 }
 .sala{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     border-radius: 1em;
     background-color: #F8A9C4;
-    padding: 3rem;
+    padding: 1.5rem;
     text-align: center;
     margin: 2rem;
-    min-height: 30%;
+    min-height: 500px;
 }
 .sala img{
     border-radius: 1em;
-    max-width: 40%;
+    max-width: 250px;
 }
 /* Salas fim */
+
+/* Aulas Semanais inicio */
+.horarios-semanais{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 350px;
+    background-color: #F2A7C3;
+}
+.tabela-horarios{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.horarios{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    min-height: 5rem;
+}
+/* Aulas Semanais fim */
+/* Formulario inicio */
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+form div{
+    text-align: center;
+    margin-top: 0.5em;
+}
+form{
+    padding: 1em;
+    border: 1px solid #F2A7C3;
+    background-color: #F2A7C3;
+    border-radius: 1em; 
+}
+form input, textarea{
+    box-sizing: border-box;
+    width: 300px;
+    border-radius: 1rem;
+    border: 1px solid #999;
+    padding: 0.5em;
+}
+
+textarea{
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+#botao_enviar{
+    width: 100px;
+    margin-right: -15em;
+}
+
+/* Formulario fim */
