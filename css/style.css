@@ -171,9 +171,9 @@
     justify-content: center;
     padding: 2em;
 }
-.formulario div{
+/* .formulario div{
     margin: 1em;
-}
+} */
 form div{
     text-align: center;
     margin-top: 0.5em;
@@ -184,9 +184,12 @@ form{
     background-color: #F2A7C3;
     border-radius: 1em; 
 }
+.contatos div{
+    margin: 1rem;
+}
 form input, textarea{
     box-sizing: border-box;
-    width: 450px;
+    width: 400px;
     border-radius: 1rem;
     border: 1px solid #999;
     padding: 0.5em;
@@ -199,11 +202,11 @@ textarea{
 }
 #botao_enviar{
     width: 100px;
-    margin-right: -26em;
+    margin-right: -22em;
 }
 .localizacao{
     text-align: center;
-    padding: 4rem;
+    padding: 3rem;
 }
 .localizacao h2{
     margin-bottom: 2rem;
@@ -226,3 +229,17 @@ textarea{
 }
 
 /* Footer fim */
+
+/* Botao inicio */
+.botao-saiba-mais{
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem;
+    background-color: #F2A74B;
+    border-radius: 1em;
+}
+.botao-saiba-mais a{
+    text-decoration: none;
+    
+}
